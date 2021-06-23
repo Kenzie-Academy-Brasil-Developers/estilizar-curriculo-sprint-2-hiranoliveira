@@ -2,6 +2,13 @@
 	clear: both;
 }
 
+body {
+	margin: 200px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: #f3f3f3;
+}
+
 #headshot {
 	width: 12.5%;
 	float: left;
@@ -10,18 +17,63 @@
 
 #name {
 	float: left;
+	color: #181818;
 }
 
 #contactDetails {
 	float: right;
 }
 
+.linksContato {
+	color: #181818;
+	list-style: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	color: #181818;
+}
+
+
+.foto {
+	border-radius: 50%;
+}
+
+.mainDetails {
+	border-bottom: 2px solid #cf8a05;
+}
+
+.subDetails {
+	font-style: italic;
+}
+
+.titles {
+	color: #444444;
+}
+
+.keySkills {
+	list-style: none;
+}
+
+div.keySkill{
+	float: left;
+	padding: 15px;
+	
+	
+}
+
+section {
+	border-bottom: 1px solid #dedede;
 }
