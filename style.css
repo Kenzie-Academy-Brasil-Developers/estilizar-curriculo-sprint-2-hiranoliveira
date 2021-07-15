@@ -2,11 +2,19 @@
 	clear: both;
 }
 
+html {
+	font-family: 'Lato',sans-serif;
+}
+
 body {
-	margin: 200px;
-	font-family: Helvetica, Arial, sans-serif;
+	margin: 100px;
+	font-family:  'Lato', sans-serif;
 	font-size: 20px;
 	background-color: #f3f3f3;
+}
+
+h2 {
+	font-family: 'Rokkitt', sans-serif;
 }
 
 #headshot {
@@ -57,10 +65,12 @@ a:link {
 
 .subDetails {
 	font-style: italic;
+	margin: 0;
 }
 
 .titles {
 	color: #444444;
+	margin: 24px 0 5px 0;
 }
 
 .keySkills {
@@ -76,4 +86,8 @@ div.keySkill{
 
 section {
 	border-bottom: 1px solid #dedede;
+}
+
+#education {
+	border: none;
 }
